@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~src/assets/stylesheets/vendors/font-awesome.min.css";
+@import "~src/assets/stylesheets/vendors/animate.min.css";
+@import "~src/assets/stylesheets/vendors/magnific-popup.css";
+@import "~src/assets/stylesheets/vendors/swiper.min.css";
+@import "~src/assets/stylesheets/style.css";
+@import "~materialize-css/dist/css/materialize.min.css";
