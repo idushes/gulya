@@ -108,9 +108,8 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 var appRoutes = [
-    { path: 'main', component: _main_page_main_page_component__WEBPACK_IMPORTED_MODULE_3__["MainPageComponent"] },
+    { path: '', component: _main_page_main_page_component__WEBPACK_IMPORTED_MODULE_3__["MainPageComponent"] },
     { path: 'app', component: _app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"] },
-    { path: '', redirectTo: '/main', pathMatch: 'full' },
 ];
 var AppModule = /** @class */ (function () {
     function AppModule() {
