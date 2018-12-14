@@ -184,6 +184,10 @@ html, body {
   margin-left: auto;
   -webkit-backface-visibility: hidden; }
 
+#clients .col-md-12{
+  padding: 0 !important;
+}
+
 @media (min-width: 768px) {
   .container {
     /*container at min width 768px*/
@@ -662,33 +666,39 @@ body.scale-effect {
     #home #menuToggle .toggle-normal .top-bar {
       position: absolute;
       right: 0;
-      top: -6px;
+      top: -18px;
       transition: .8s; }
     #home #menuToggle .toggle-normal .middle-bar {
       position: absolute;
       right: 0;
-      top: 0;
+      top: -12px;
       opacity: 1;
       transition: .8s; }
     #home #menuToggle .toggle-normal .bottom-bar {
       position: absolute;
       right: 0;
-      top: 6px;
+      top: -6px;
       -webkit-transform: rotate(0deg);
       transform: rotate(0deg);
       transition: .8s; }
   #home #menuToggle .top-transform {
     -webkit-transform: rotate(45deg) !important;
     transform: rotate(45deg) !important;
-    -webkit-transform-origin: 34% 56%;
-    transform-origin: 34% 56%; }
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    top: -12px !important;
+    left: 3px !important;
+  }
   #home #menuToggle .middle-transform {
     opacity: 0 !important; }
   #home #menuToggle .bottom-transform {
     -webkit-transform: rotate(-45deg) !important;
     transform: rotate(-45deg) !important;
-    -webkit-transform-origin: 28% 43%;
-    transform-origin: 28% 43%; }
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    top: -10px !important;
+    left: -4px !important;
+  }
 #home .header-background {
   /*home background*/
   position: relative;
@@ -1955,6 +1965,7 @@ POPUP ANIMATIONS
 -------------------------------------------------------------------------------*/
 /*contact section*/
 #contact .card .card-content {
+  padding: 40px !important;
   /*form content*/ }
   #contact .card .card-content .input-field {
     /*input field*/
